@@ -1,4 +1,9 @@
 # aws-stream-kinesis
+
+#### Instalando o kinesis via docker
+```
+docker run -d -p 4567:4567 vsouza/kinesis-local --port 4567 --createStreaMs 5
+```
 #### Instalando o AWS CLI
 ```
 apt install awscli
