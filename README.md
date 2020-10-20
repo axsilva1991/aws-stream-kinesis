@@ -24,3 +24,6 @@ AWS_ACCESS_KEY_ID=X AWS_SECRET_ACCESS_KEY=X aws --endpoint-url=http://localhost:
 ```
 AWS_ACCESS_KEY_ID=X AWS_SECRET_ACCESS_KEY=X aws --endpoint-url=http://localhost:4567  kinesis put-record --stream-name Foo --partition-key 123 --data testdata --region eu-west-1
 ```
+
+## Referencias:
+https://docs.aws.amazon.com/cli/latest/reference/kinesis/index.html
